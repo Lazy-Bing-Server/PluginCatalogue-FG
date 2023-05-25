@@ -4,6 +4,7 @@ on:
   schedule:
     # Runs at minute 25 of every hour (10 minutes later than main catalogue)
     - cron: '25 * * * *'
+  workflow_dispatch:
 
 jobs:
   update:
