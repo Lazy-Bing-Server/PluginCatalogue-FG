@@ -36,12 +36,6 @@ jobs:
           ref: catalogue
           path: catalogue
 
-      - name: Prepare runtime
-        run: |
-          rm -rf ./meta/.git
-          cd ./scripts
-          pip install -r requirements.txt
-
       - name: Generate meta
         run: |
           cd ./scripts
