@@ -17,7 +17,7 @@ def __update(folder, included_suffixes: Iterable = None, excluded_prefixes: Iter
     if excluded_prefixes is None:
         excluded_prefixes = []
 
-    for folder in os.fwalk():
+    for folder in os.walk(folder):
         folder = WalkedDir(*folder)
         for file in folder.filenames:  # type: str
             matched = True
