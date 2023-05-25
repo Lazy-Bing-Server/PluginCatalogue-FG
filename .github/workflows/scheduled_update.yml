@@ -2,8 +2,8 @@ name: Scheduled update
 
 on:
   schedule:
-    # Runs at minute 15 of every hour
-    - cron: '15 * * * *'
+    # Runs at minute 25 of every hour (10 minutes later than main catalogue)
+    - cron: '25 * * * *'
 
 jobs:
   update:
@@ -21,11 +21,19 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-:
 
-      - name: Pull previous meta
+      - name: Sync meta
         uses: actions/checkout@v3
         with:
+          repository: ${{ vars.TARGET_REPO }}
           ref: meta
           path: meta
+
+      - name: Sync doc
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ vars.TARGET_REPO }}
+          ref: catalogue
+          path: catalogue
 
       - name: Prepare runtime
         run: |
@@ -33,17 +41,10 @@ jobs:
           cd ./scripts
           pip install -r requirements.txt
 
-      - name: Fetch data
+      - name: Generate meta
         run: |
           cd ./scripts
-          python main.py fetch
-        env:
-          github_api_token: ${{ secrets.TOKEN_FOR_GITHUB_API }}
-
-      - name: Generate doc
-        run: |
-          cd ./scripts
-          python main.py doc
+          python main.py meta
         env:
           github_api_token: ${{ secrets.TOKEN_FOR_GITHUB_API }}
 

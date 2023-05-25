@@ -1,1 +1,0 @@
-Allow players to clone non-renewable items.

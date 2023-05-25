@@ -1,58 +1,78 @@
+import json
 from argparse import ArgumentParser
-from typing import Collection, Optional
+from constants import CATALOGUE_FOLDER, META_FOLDER, MAPPING_FILE
+from collections import namedtuple
 
-import thread_pools
-from doc_gen import generate_doc
-from plugin_list import get_plugin_list
-from report import reporter
-
-
-def check(target_ids: Optional[Collection[str]]):
-	get_plugin_list(target_ids).fetch_data(meta=True, release=False, fail_hard=True)  # so github api token is not needed
+import os
+import typing as ty
 
 
-def update_data(target_ids: Optional[Collection[str]]):
-	plugin_list = get_plugin_list(target_ids)
-	plugin_list.fetch_data(fail_hard=False)
-	plugin_list.store_data()
+WalkedDir = namedtuple('WalkedDir', 'dirpath dirnames filenames')
+Iterable = ty.Optional[ty.Iterable]
+
+
+def __update(folder, included_suffixes: Iterable = None, excluded_prefixes: Iterable = None):
+    if included_suffixes is None:
+        included_suffixes = []
+    if excluded_prefixes is None:
+        excluded_prefixes = []
+
+    for folder in os.fwalk():
+        folder = WalkedDir(*folder)
+        for file in folder.filenames:  # type: str
+            matched = True
+            for suf in included_suffixes:
+                if not file.endswith(suf):
+                    matched = False
+            for pre in excluded_prefixes:
+                if file.startswith(pre):
+                    matched = False
+
+            path = os.path.join(folder.dirpath, file)
+            if not matched:
+                print(f'Excluded {path}')
+                continue
+
+            print(f'Processing {file}...')
+            with open(MAPPING_FILE, 'r', encoding='utf8') as f:
+                to_replace: dict = json.load(f)
+
+            path = os.path.join(folder.dirpath, file)
+            with open(path, 'r', encoding='utf8') as f:
+                data = f.read()
+
+            for old, new in to_replace.items():
+                data = data.replace(old, new)
+
+            with open(path, 'w', encoding='utf8') as f:
+                f.write(data)
+
+
+def update_data():
+    print('Processing meta branch')
+    __update(META_FOLDER, included_suffixes=['.json'], excluded_prefixes=['.'])
+
+
+def update_doc():
+    print('Processing catalogue branch')
+    __update(CATALOGUE_FOLDER, included_suffixes=['.md'])
 
 
 def main():
-	parser = ArgumentParser(prog='python manager', description='Plugin Catalogue Manager')
-	parser.add_argument('--targets', default='', help='The target plugin ids to be processed, can be separated by "," just like csv format. By default all plugins will be processed')
+    parser = ArgumentParser(
+        prog='python manager', description='Plugin Catalogue (FastGit Accelerated) Manager'
+    )
 
-	subparsers = parser.add_subparsers(title='Command', help='Available commands', dest='subparser_name')
-	subparsers.add_parser('check', help='Check the correctness of files in "plugins/"')
-	subparsers.add_parser('fetch', help='Fetch metadata and release information from github to "meta/"')
-	subparsers.add_parser('doc', help='Generate user friendly plugin catalogue doc to "catalogue/"')
-	subparsers.add_parser('all', help='Run everything above: check, fetch, doc')
+    subparsers = parser.add_subparsers(title='Command', help='Available commands', dest='subparser_name')
+    subparsers.add_parser('meta', help='Update meta branch')
+    subparsers.add_parser('doc', help="Update documents in catalogue branch")
 
-	args = parser.parse_args()
-	if args.targets == '':
-		target_ids = None
-	else:
-		target_ids = args.targets.split(',')
-		print('Targets: {}'.format(', '.join(target_ids)))
-	reporter.record_command(args.subparser_name)
-	reporter.record_script_start()
-
-	if args.subparser_name == 'check':
-		check(target_ids)
-	elif args.subparser_name == 'fetch':
-		update_data(target_ids)
-	elif args.subparser_name == 'doc':
-		generate_doc(target_ids)
-	elif args.subparser_name == 'all':
-		check(target_ids)
-		update_data(target_ids)
-		generate_doc(target_ids)
-	else:
-		parser.print_help()
-
-	reporter.record_script_end()
-	reporter.report(get_plugin_list())
-	thread_pools.shutdown()
+    args = parser.parse_args()
+    if args.subparser_name == 'meta':
+        update_data()
+    elif args.subparser_name == 'doc':
+        update_doc()
 
 
-if __name__ == '__main__':
-	main()
+if __name__ == "__main__":
+    main()
