@@ -45,7 +45,7 @@ When connection to GitHub is unstable, change the plugin source configuration to
 Configure the following field in its configuration file `config/mcdreforged_plugin_manager/config.yml` to：
 
 ```commandline
-source: https://hub.fgit.ml/Lazy-Bing-Server/PluginCatalogue-FG/archive/refs/heads/meta.zip
+source: https://hub.fgit.gq/Lazy-Bing-Server/PluginCatalogue-FG/archive/refs/heads/meta.zip
 ```
 or
 

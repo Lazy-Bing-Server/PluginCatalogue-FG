@@ -48,7 +48,7 @@
 在其配置文件 `config/mcdreforged_plugin_manager/config.yml` 中调整如下配置: 
 
 ```commandline
-source: https://hub.fgit.ml/Lazy-Bing-Server/PluginCatalogue-FG/archive/refs/heads/meta.zip
+source: https://hub.fgit.gq/Lazy-Bing-Server/PluginCatalogue-FG/archive/refs/heads/meta.zip
 ```
 
 或者是
