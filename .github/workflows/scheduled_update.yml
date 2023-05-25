@@ -59,6 +59,7 @@ jobs:
           BRANCH: meta
           FOLDER: meta
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
 #          SQUASH_HISTORY: true
           SKIP_EMPTY_COMMITS: true
 
@@ -68,6 +69,7 @@ jobs:
           REPO: ${{ vars.SELF_REPO }}
           BRANCH: catalogue
           FOLDER: catalogue
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 #          SQUASH_HISTORY: true
           SKIP_EMPTY_COMMITS: true
