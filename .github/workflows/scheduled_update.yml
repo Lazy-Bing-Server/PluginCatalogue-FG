@@ -46,7 +46,7 @@ jobs:
       - name: Deploy meta
         uses: s0/git-publish-subdir-action@develop
         env:
-          REPO: self
+          REPO: ${{ vars.SELF_REPO }}
           BRANCH: meta
           FOLDER: meta
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -56,7 +56,7 @@ jobs:
       - name: Deploy doc
         uses: s0/git-publish-subdir-action@develop
         env:
-          REPO: self
+          REPO: ${{ vars.SELF_REPO }}
           BRANCH: catalogue
           FOLDER: catalogue
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
