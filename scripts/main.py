@@ -11,6 +11,15 @@ WalkedDir = namedtuple('WalkedDir', 'dirpath dirnames filenames')
 Iterable = ty.Optional[ty.Iterable]
 
 
+def get_fastgit_urls_from_file() -> ty.Dict[str, str]:
+    with open(MAPPING_FILE, 'r', encoding='utf8') as f:
+        return json.load(f)
+
+
+def get_fastgit_urls() -> ty.Dict[str, str]:
+    return json.loads(os.getenv('FASTGIT_URL'))
+
+
 def __update(folder, included_suffixes: Iterable = None, excluded_prefixes: Iterable = None):
     if included_suffixes is None:
         included_suffixes = []
@@ -34,8 +43,7 @@ def __update(folder, included_suffixes: Iterable = None, excluded_prefixes: Iter
                 continue
 
             print(f'Processing {file}...')
-            with open(MAPPING_FILE, 'r', encoding='utf8') as f:
-                to_replace: dict = json.load(f)
+            to_replace = get_fastgit_urls()
 
             path = os.path.join(folder.dirpath, file)
             with open(path, 'r', encoding='utf8') as f:
