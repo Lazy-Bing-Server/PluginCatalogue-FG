@@ -140,6 +140,7 @@ def main():
     subparsers = parser.add_subparsers(title='Command', help='Available commands', dest='subparser_name')
     subparsers.add_parser('meta', help='Update meta branch')
     subparsers.add_parser('doc', help="Update documents in catalogue branch")
+    subparsers.add_parser('remove', help="Remove archive files in meta")
 
     args = parser.parse_args()
     if args.subparser_name == 'meta':
