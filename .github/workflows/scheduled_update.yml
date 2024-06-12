@@ -50,7 +50,6 @@ jobs:
         run: |
           rm -rf ./meta/.git
           cd ./scripts
-          python main.py remove
           python main.py meta
         env:
           github_api_token: ${{ secrets.TOKEN_FOR_GITHUB_API }}
