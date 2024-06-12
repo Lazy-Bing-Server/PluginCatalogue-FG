@@ -22,6 +22,11 @@ LABEL_FILE = os.path.join(RESOURCES_FOLDER, 'labels.json')
 CATALOGUE_FOLDER = os.path.join(ROOT, 'catalogue')
 META_FOLDER = os.path.join(ROOT, 'meta')
 
+GHPROXY_URL = "https://mirror.ghproxy.com/"
+CREATE_GZ = ["all.json", "authors.json", "everything.json", "everything_slim.json", "plugins.json"]
+CREATE_LZMA = ["everything.json", "everything_slim.json"]
+COMPACT = ["everything.json", "everything_slim.json", "plugins.json"]
+
 PROXIES = None
 if 'http_proxy' in os.environ:
 	http_proxy = os.environ['http_proxy']  # e.g. 127.0.0.1:1082
