@@ -1,3 +1,5 @@
+> ⚠️ **This Repository will not update automatically anymore, stop trying to use this!!!**
+
 **English** | [中文](readme_cn.md)
 
 <h1 align="center"> MCDReforged PluginCatalogue</h1>
