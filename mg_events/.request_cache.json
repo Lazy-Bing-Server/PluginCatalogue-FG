@@ -1,0 +1,44 @@
+{
+  "NOTICE": "Not public API, DO NOT use this file",
+  "release_pages": {
+    "1": {
+      "etag": "\"925fca44cd50ea70b0e4254ebf6ba6f27a3b011ab116bbe286caebf8367eb741\"",
+      "data": "H4sIALsJTmcC/+2XbW/aMBDHvwrKS1TIAyEkSFPV9WF7McZUbW9aqshJnMRriKPYgbWI7747JwTKtG4g9mqV2mAu//udfbbP5n6lVWWmjTtaKmUhxrpOCtZPmEyroB/yuV7Sggt9wnnG8sRwDAvaJf1A5vR6QXMpepPLq1tQZZQIKnTTdS3XGwws7ayjESGoFP6/CaDXdIxTFRkn0X6c2ipOGGt1noP0LCMBzdYYOJXzbD/sTri/DiRJoht9s28glEWAa0NjGiuZ8hKMKy3jCcsx2g5662OPPMe2HBcMOY+or6zaN/8xuZpefv74PrhQs7IgkpS/zIqybrJVCVqGPJfQVzWSSm/h54t3NmKSsgHVUdQ8vDrRyHyR/MMyiOqYZxlfAsY/MJTeem4x8OpIDHxb6VymFLIIErUUEibk4d1SXiv1AXlUIAE5LWl0MKrxg44tc+jTSi32mlgFIixZIRnPD+/iC2/E8TIhOXsmx+HAW1HUVjzYW3mhO1Xb6GD/2m2lFyVbkPBpXfckpGwBGT+SueePSPlUULX1QKw2Bnz6C0aX/uZNUQUZC9XsMEl9Es3Vvo5JJuj65f69vfYfl1fTz9Pv6c3E/jS9vVZlAmqGj+UIJW3tgDWQUOlDR+dMMpHiyzkBNCIb8aJVRyWJ5SYqfC9K2pSkHWNYUiJhdASVmmVYds80ewPjq2mM4c8e3SFKjUekv9MNx6Z5tz0SQHF/4oOnBuuWaRi26Q23VbG17GX1Yjerk/TLj2Q3SXux6pz152Gk5lOdACDLqyxrzx/6VqLfSvRbif5vSnSz+Vo9KQrQq5zrPJRU9oSE2jlvVoxUoqZURDX2GW1QKj3HwHIMy0JdZENe5VhF7T+U34E1tuy7+gYcvapylSoo+RKH2QY6wdV1w6rvr/ordXP9UB9QAcmyk/wmaFjbm/MzK04Gb1hbeMCjJ6T2OrPK8zxnVtnUItA2THi6cTiaVUPLi6FtxNGsciI7gHYQDWfVyHFtsIzwOaQx6EeW7aLFCmflLEfmyKEUCXaE5BC8nKEFNGdgmPAMRgHaCbbpAH0tI0aLq+yxgxz873Zv4FTqXKYkTygcRt3uuHPEBNdXCNGMf/3wE5HYUgApDgAA",
+      "empty": false
+    },
+    "2": {
+      "etag": "\"f5ac6239dc9c27f6431c92b538a9875ef5a02218e92d0c3324d11b1431881652\"",
+      "data": "H4sIAPz/SmcC/4uOBQApu0wNAgAAAA==",
+      "empty": true
+    }
+  },
+  "asset_data": {
+    "210041952": {
+      "meta": {
+        "schema_version": 4,
+        "id": "mg_events",
+        "name": "MoreGameEvents",
+        "version": "0.1.0",
+        "link": "https://github.com/Mooling0602/MoreGameEvents-MCDR",
+        "authors": [
+          "Mooling0602"
+        ],
+        "dependencies": {
+          "mcdreforged": ">=2.1.0"
+        },
+        "requirements": [],
+        "description": {
+          "en_us": "Add more game events to MCDR.",
+          "zh_cn": "向MCDR添加更多的游戏事件！"
+        }
+      },
+      "size": 202960,
+      "hash_md5": "c54a63381cf53a5a43f128ff6ae8e2fe",
+      "hash_sha256": "0eef4931e2b92ec5e7d47e7c436b118ac58542223fdb0b8138ba4194013636c5"
+    }
+  },
+  "repos_info": {
+    "etag": "\"7eed5cc2f52f26dcfa34780da773b457ce1231ee8eb6fb3f8a2177e9eb87c2a1\"",
+    "data": "H4sIAPT/SmcC/62YX2/bNhDAv4rg1yWW7ThOYqDoumbLHpo0KBIMSDEIlERLjClSIym7juDvviOp/20zO+NLYh15P55Od0ceyxGJR0vv8vJicXExm8xPvBHjMQ6MdPQlWCfXn+8+P6d/fBjpIZRhLb/lAt/A7983mCl5evvx+oseXhWUBu0cTglLJovJzP/J/FyQDVJ69gpRiUHCtwwLeC5HlCeEDThaxxg2nV9cLeazxWXf3Edj7se7P38LjbkI6EgEhaB6NFUql0vft1I5TohKi7CQWEScKTBsHPHML/wG/n7zbq4xiahAdhUtGiJzUuEsA5jSHxieqowOTenoDGavOKV8C5jgyKX8RrPFwNAbMfBU+lylGLwIU/bGHUSq480yWqX5B340IAk+FTg+GlXpgWE6WvalL3DOLbEIZSRIrghnx5vY09Y4LhLEyAt6Gw60DUVbd7y20dLq2OTM0fpWrfRNjkW7vbUkwmQDHn8jc6CvkWqXm2x/hMkmMeB/sCF4G9QjeRFSEpmvQxQOUJyZvDYZvz8qL35WRmLcfDYN+RDHXgYzvQSmetZUT3FPTx/bpBDrTs153QvmOxxihab+l0sPgvmGpJFrvHND1KBS/61TL4LsRiEXSHHhZokesew9mhUVRpmblQzJVFTOHXnckMzuImWBD0uPw8gGKJtsZEUWVmXU4SJtOiIpScIwdsNtaKXfVP9QIBaljhaoYWX1y0YKShwFCrIFOKQ8dEMEBd/QSl+mqNoNVeDMYs3XsD5e4JU7vIa1eCVcxYoxXZhYqeGwTyuIGzf8GuaXNZ4ilhQoccRvaPXJJEEvWDizvcLZ2suUIGHhsPS2wM4pKHRmfssbHrJc8u0GbhyUZUS58o1h9RPK5QI67r9bRAucVfca1ts97EZVDbncqX64WtUguQtX/eSXv+RIpbXDciSwK39pll+GCE6Y4/G4TDGyx54MC1f1wqLMniuiFE7FTqhlDYMzYIaU6W1WxvQYmh3KUezG+obWxJLL404vdvKCUjdwQ+qxM0KxVJy5+qYNrrcK44qsSHRQG3jYQj1i+V4SFuETROkJBK4iEYG8APVqlwsxdbXFaRS8GsirfpBi5GqDrmGlX/UYMc4p37mrgx2eKRkCIwW9KFKaPJvM5qfT6en07GEyX55fLefnT6YfzeMfzDqbPEwny/PZcnr1ZGNUpq9MWjzVO0f1HvDzqC5Vv6zZOmXaQfzaApYHAiIK0fn2brmxY8P+X8ud8gzncFqq78MkedG/Z2eT/ukp4gXTTtXiLVJw1h8I62OXBt3vVGpPACmSgS0lIFeiwJUsF/wZR2ogbYtZT7wlazJQN+e7tvM3ykRGBfQ5+sqnHbHNfNfQjAjB67tEBpWorfxxRxFwKKQ9Ec8xq96m/+okwkxic9sJrbkJipyeno0n3avWm7tH7wYzLBD17s1VivfJKnqbaqrM42/V3eTN/aca8HrKVYtLv7tke5N6ex0tHm7o89Nf5y9PD+t3I31Tg/SNoN6Z1hAdrWeJDBTOctq/yd3isDpnBbqJ5KsV9DH/FET0fKN4TiLt+K9/w9OGSBISStSuf3FkL0Ss1zreHMRV9RjjFSqoCmxHqUEZIiaqciwy0nzqctS7ijqx8xTqiXRh6JoriI3VdpzSyhN7c8mR5YHNUcXXmNXpwbDawjv0Pn/3lF7Lp/t/AWzB3z2QFwAA"
+  }
+}

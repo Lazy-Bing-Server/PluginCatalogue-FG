@@ -1,0 +1,149 @@
+{
+  "NOTICE": "Not public API, DO NOT use this file",
+  "release_pages": {
+    "1": {
+      "etag": "\"a6d4aa3389475566cb6c5c626d8d82facba86810cc412826f391fdb3e8e174d7\"",
+      "data": "H4sIABs1RmcC/+2ba2/bNhSG/wrjz01EypIsC12LrNkKrOi6tdmAXgaHlhiZiCRqImXXMfLfR1LyRYmj1InlDwuTAEGYc94jHVHv0QMlXxe9skh6AehNhMh5YFk4pycxFZNyfBKy1CpIzrg1vp7XH9b7N2cfj09Lwd6wNMVZJCMSgjnhFoK+5w+gC3svQA9zTgQf7V/cqpRVjTJPGI5u16hW+Z7qLF5nOCUvEjwmyY0qOhFpcrvkRqkfKiJwbE3RSf9Et4pGUmtVV/WuFBNWyMVFL2ExzVSpte4qZegOHfmpMjIWkZFe7P01uorPPvw8jj/xWF+IKRa4uHMh9OqySSUnRcgyQTKhT6K0ltqvpz85SiUuap2qiO5+66VVkpst36l1KviSJQmbSZHRboWsVeJahWbx41Rk4sJiYkJkA2WE3gAx5WLng9JJC/1NtlDrcNnOgkS7KtVp8rBmmTyihd7clWA55mFBc0FZtvMBNpKVGitinNFr/Cg1maxF9I23a7JOUtlkKjfkzulV1sLKCzrF4fymOo6Q0Kls9uMkb6UrRTHPib7dZKy+G+T30ZSS2Wj5m7wcJzTUF4YKMsJRqu/kS5xwctO8Zz/+MrqanX34jfM/8vfOW5IO3ukaOB4p91Eha7uQ1z8mYiQPNKWC8on6bYq5qI5jGb/hO2CdGxX4UiwPQv6cF6Q2pY3FsCBYyJPFKrJnQ7t/DL1jBM9tFEA7QPCLktKnxyd349xz6AdIfqEv60EgI77ucdRUohZC9rCPvIG9ttHlyq0GnzYaXF7//vmeZh1XzTpJw0j3Uxu/jMnKJFmNHGLM2ZizMef/sTnXN9wqHue5jNf9tlgoiDjmQtpkWu8VoYNqc4gq2Wu1ZtsD31HGKzeEflgNWZkpv7SRe7/VuudoECBnaaFlHrVG2TpqXLCZOs9VqSc+pC516idV6z6TvPmnGkpjnCRPft6vdTaejq9pvhflWmdDecyiuXb/KAIXgqZyG1zKKToi30lYCnIBZhMaTgBWXsNBWA9TebXDKyAYmGEqgM4AVYb0IyD3YDFfxn4rvmVa/OgIh1X8S07CVz+kPJuQDHCSRUq2DuE9uTf3S2zIhp7TFbFV4t0TW6NOl8Rmn6BNYqvqGmIzDwXmoeBZE1sY5qdbiK22i0cRW517CGKTcXbgeoHjHYLY0NDtO94msVUrrcRWjMJPLcQmm2WIzZizMWdDbE8nNmfobSM25Lc6rXbQvtMGbKsot3Ngk4Zo3eeRXQFbPbE6ALZaeQlsv9LvJAJUXu9CjkM1RvePRWgwtO2usEiLHwCLNut0i0WNF1lVXYNFZvKayfu8sWh8TLdiEXwCFu3jRRYM+nIMew9ikYwbBi48CBb5ju8PG1ikV9qxyHfcViwyL7KMORtzNli0DyxyB1uxyH7IaYeB8xAWVVGHwCJo3eeR3WER7AyLbr/HkliEAadpnpACzPBcvU2SewZcWHmC53Lt5ZiJV4DneJZd1K+ndE5G5NyNQMJYDiKJVKFgHVAVHCKInI6oqhLvnqoadbqkKtSkqqquoSozuM3gft5U9Td+u4Wq0BOoCu2DqqAT2Chw+w9RlYobBvZhqAp5fc9vUJVeaacq/u7PFqpChqqMORtzNlS1B6pCnu3uTlXKQdVXO1U1orqkKnSXqlDXVIU6oyrUpKrPrAQhzgCOIsBZSgC7BNJUVn+Sp37WLgOUKMiTUro+BzTbjKr/ti9js6OjvWPVYOC7nuN3g1W1eOdY1azTJVbBBlbVdQ1WmcltJvezxqrxO3u2BatgG1ZJ7fuhCj4ZqqCvhnjffwiqVJwX9FEA3QNAFfIRdOCGiS5XWqHq30kUt0AVNFBlrNlYs4GqfUDV0Nv6P1cItTqtdFAY9PstULWO6h6q4F2ogl1DFewMqmATquQZ/Aft2oe/ekIAAA==",
+      "empty": false
+    },
+    "2": {
+      "etag": "\"f5ac6239dc9c27f6431c92b538a9875ef5a02218e92d0c3324d11b1431881652\"",
+      "data": "H4sIAGMx+GYC/4uOBQApu0wNAgAAAA==",
+      "empty": true
+    }
+  },
+  "asset_data": {
+    "112931672": {
+      "meta": {
+        "schema_version": 4,
+        "id": "auto_command",
+        "name": "Auto Command",
+        "version": "1.3.0",
+        "link": "https://github.com/bzyyyyyyyy/MCDR-AutoCommand",
+        "authors": [
+          "bzyyyyyyyy"
+        ],
+        "dependencies": {
+          "mcdreforged": ">=2.1.0",
+          "minecraft_data_api": "*"
+        },
+        "requirements": [
+          "mcdreforged>=2.1.0"
+        ],
+        "description": {
+          "en_us": "A plugin that send send commands automaticly",
+          "zh_cn": "自动发送指令的插件"
+        }
+      },
+      "size": 22784,
+      "hash_md5": "8996f57835a1323df81acd22dd99f844",
+      "hash_sha256": "12d44887843c537066f26cd8102f27d1db570f16d43c9fd50afe542350b8c283"
+    },
+    "112195346": {
+      "meta": {
+        "schema_version": 4,
+        "id": "auto_command",
+        "name": "Auto Command",
+        "version": "1.0.0",
+        "link": "https://github.com/bzyyyyyyyy/MCDR-AutoCommand",
+        "authors": [
+          "bzyyyyyyyy"
+        ],
+        "dependencies": {
+          "mcdreforged": ">=2.1.0",
+          "minecraft_data_api": "*"
+        },
+        "requirements": [
+          "mcdreforged>=2.1.0"
+        ],
+        "description": {
+          "en_us": "A plugin that send send commands automaticly",
+          "zh_cn": "自动发送指令的插件"
+        }
+      },
+      "size": 22496,
+      "hash_md5": "2acb1cee259b7d6c29a2a5406252ddc2",
+      "hash_sha256": "4f741e56a955d1f9af7402478b06faa9757d7378233968ad5ea1a0ed62ba89a2"
+    },
+    "112184889": {
+      "meta": {
+        "schema_version": 4,
+        "id": "auto_command",
+        "name": "Auto Command",
+        "version": "1.0.0",
+        "link": "https://github.com/bzyyyyyyyy/MCDR-AutoCommand",
+        "authors": [
+          "bzyyyyyyyy"
+        ],
+        "dependencies": {
+          "mcdreforged": ">=2.1.0",
+          "minecraft_data_api": "*"
+        },
+        "requirements": [
+          "mcdreforged>=2.1.0"
+        ],
+        "description": {
+          "en_us": "A plugin that send send commands automaticly",
+          "zh_cn": "自动发送指令的插件"
+        }
+      },
+      "size": 22457,
+      "hash_md5": "2f551c508b0f9500049de76f2e5f259e",
+      "hash_sha256": "3da24e52fff16deb3830ec892d5c7efa2584b185a7a316d2098ae668e9de6840"
+    },
+    "112116368": {
+      "meta": {
+        "schema_version": 4,
+        "id": "auto_command",
+        "name": "Auto Command",
+        "version": "1.0.0",
+        "link": "https://github.com/bzyyyyyyyy/MCDR-AutoCommand",
+        "authors": [
+          "bzyyyyyyyy"
+        ],
+        "dependencies": {
+          "mcdreforged": ">=2.1.0"
+        },
+        "requirements": [
+          "mcdreforged>=2.1.0"
+        ],
+        "description": {
+          "en_us": "A plugin that send send commands automaticly",
+          "zh_cn": "自动发送指令的插件"
+        }
+      },
+      "size": 21625,
+      "hash_md5": "5392775e32e180dfc9e5344a0a0f4782",
+      "hash_sha256": "a0ba1afb43a9e76eb20ceabc279b69b708305f0d8bc5485806bde63ca38b3b29"
+    },
+    "111810400": {
+      "meta": {
+        "schema_version": 4,
+        "id": "auto_command",
+        "name": "Auto Command",
+        "version": "1.0.0",
+        "link": "https://github.com/bzyyyyyyyy/MCDR-AutoCommand",
+        "authors": [
+          "bzyyyyyyyy"
+        ],
+        "dependencies": {
+          "mcdreforged": ">=2.1.0"
+        },
+        "requirements": [
+          "mcdreforged>=2.1.0"
+        ],
+        "description": {
+          "en_us": "A plugin that send send commands automaticly",
+          "zh_cn": "自动发送指令的插件"
+        }
+      },
+      "size": 21964,
+      "hash_md5": "7195b9d51a18b339f1b954789b7bb601",
+      "hash_sha256": "c5eb649eb85dc70eaf6ebc22f502fd1651be1344b8bc2a98b05cd41fca1fae94"
+    }
+  },
+  "repos_info": {
+    "etag": "\"e9400525f14061dfdd15c5e75c8ebb4e5d5a9a8c5be9f07965e4aa273f17112e\"",
+    "data": "H4sIALKdEWcC/62YbW/bNhCA/4rgr0ssxbHT1UDRZQ0QYGi3oEswIMMgUBItsaZIjqTsOYL/+46k3ugGTRwrDRqb4j08He+Od6wnJJssg6tF9PN8Fs2is2DCeIZjOzr5Gq/zmz9+U+pOXE/MI1RiM/7l083X8+tK80+8LBHLzLNVRWncTkieds1P+NxcIckGaTNzhajCMMK3DEv4Xk8ozwnzGUbEKvR+8X4O/w60fLBa/prkf6rcTEXARjKuJDVPC62FWoahG1XTnOiiSiqFZcqZxkxPU16GVdiyP24+zA0llw3HLWKGDomCNDSHAKQKfa0LXdJDRQYi/uQVp5RvARIft1DYCfYUwvK3UUCwDrkuMBgQZuytKYjSRytlhWr7B0xoOQrMKXF2LKkRA7WMk+zrUGLBHbBKVCqJ0ISzoxX0hA2Nyxwx8oTeRANhCzG6HS1shYw03oBDHi3upOrQhlW62zs9Ukw2YOy3IQ/EDVHvhI3tB5hrowH+xhuCt3H7RFQJJandGKJxjLLSRrKN8f0x0fBs0shwt10GcB0IWkGqCHSBdKAqIbjUKkBK4RLUYHmQOlkVEKZ5AF6UruE5ywKFWWYmgJeXAYJVStjzFFHahKFcDzLTjw1nd+4lzQ3xpR14ERRaisGt8e50moHU5v82OFMIf5RwiTSXp+M9Wu19tatpjMrTV7EUm2c5H8HClmIPG6Uq/LrIeZlqYaoLUlaVSZNXR1qgD1FwfpIzjE9ndqQ67I6BRCKWFiPAW1DdfHIegfIRHAK5LJxQnpxOg8mhJdWhKlBzFOp4FE0N24B8tMSrcdAG1KO1HMMnrMrS+kQLhqSqwT9OZ7egsG7RFLG8QvkI7I7U1iA5esJyFJ0blMufTEuSVCOlzx42KHSSUdTuWYc11Fhsd0hbo5Ql0WPYw3L8YBkLbvz6uwXMwCjZuQV5md8dMM2jsU6YZ1dqmpxxXNKAwvongXTRGkkgicewkeGEdYKgUpxOp3WBkStLSizHyAEOY89ImRZQ2Z5MrFsQ1GVQP9q2ZGVVzqBPoRxlp2vdkTqfGasc8XxEQOt+OthSPG5JKFaaszH2r0N5KzCuyQpK99e0bC8v4tHqj4qwFJ9BW3AGzgkNAgG/h7ahOZ0STMc4mgwGXgmVuGnbKEZjHKgtqA6b+j7DgvLdODltwLJpQGKkoVdE2lBn0ezyPLo6j97dzy6X88UyWjzaflFk/qz5+UUEv/dRtIyulvOrR+eLqvgOdbG4v3i3vJgto+ixzf7NO8DHV3eR5iXtkaeKgfgvvfDyFcIpBS98Wxfbrb9hb2+DC15iAdVMeymlyJP5PL/yi5uUV8zY8AKGt0hDuX0w2FZFhnO304U7sAukYpchYFzLCjdjQvJvONUHo31+8oa3ZE0GHbSVt/WXP5YRlVbQZ5jrl/6Ja5ZbTSObRqTk7X0egyzTZ/FsIAg4lFBviAvMmtfxiJSkmCls7xuhBbaOIOj55TQa3nLe/v4Q3GKGJaLBnb3aCD47wWDTTFUi+6+5ILy9+9wCfhxezeIqHC7Z32Z+uUmv7m/pt8e/Fk+P9+sPE3NzgszVnDlp1pCAemMTFWtcCurfpW5x0tRGsWni+GoFfcW/FZGebTQXJDWG//sf+LYhiiSEEr3zL3LcpYOz2sCazUjrWI1LZXiFKqpj19UZUImUdrdFAsuSdJtdT7zLIbPJiDCNvCGTCoYKS+LctX9OaWOLvb1SKEXsolPzNWZtgDCst/AWngMM6+kuKPb/A38rCIgNFwAA"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "NOTICE": "Not public API, DO NOT use this file",
+  "release_pages": {
+    "1": {
+      "etag": "\"f97a995f0c0695c184a15baf2d25e429d0151f861cb6857cf2c74f2336ceb7df\"",
+      "data": "H4sIAP8iMmcC/+1Xa2/TMBT9K1E/TqRx+k4khGAPCcGYGOM1QJGbeInBiSPbaWmr/neunfQJtOrY+oV8qKI6955zc20f+3yZNQrBGr7VSJTKpe84OKfNmKqkGDZDnjqC5Fw6r/F0Yr+gWWy/I2JEhPOOxhlmpzxTmGZE2JenZ9cQywiWRDpuv9f2Bn3UbTyxGlhKomTwmDROyaHZipxxHG2zlaPywRlnzzKckicMDwmba/pEpWybfI30QDqFY8dtoqaroWkEoMsCdGMLlXABg7MG4zHNNOc1drOJ/bn4QZcp/Xar7w3QAP5nPCKBGWxcnr3tffj0hoXfw+nl97B7dfa8Y2ZrhBUWv82WGV30r5BEhFAyyZT5qsJZcDwbPTUosahwSjIzMTvnX0NKZ7P6Pb3cDL7jjPExgASHETnLxBUKzM/9UCBx5nCVEGggRJgVEVOpDi7KJM3MA1pocCS0U5DoUKQqDcoaw/qaz8y6LwGLoQwFzRXl2cEFbiRrNC5inNEpvhcaJBsQsycPTTZJOpuMYEEenF5mzZxc0BEOJ/OyjpDQETT7fpBb6RpRTXKiId5DrNkN8AxGlIyDxZu8GDIamomhigQ4Ss2OvsNMkvnm3r0+D36Mz64u3avzdth5FfcufhoOHAdajnTIUjVg+mOiAqgzpYrKRL9MsVRlGYvw0TI+EvhOLXjhfy5IJUdrg6EgWMH3YR3ZaKFWx0ae3WrfuG2/1fXdwa2GMl8kk7/F9X23c7s6ICDiy6McRiW843qddm/gtQYrLV2MbHX3+Xp3X7PoY7zeqm2ysnXNNIxMR81RAHFZwdjyOCK1StcqXav0f6DS1YZbxuM8h3jTb4eHiihbKhDPtForygRVIhGVsFM95rqo09ZyDAvCXGhDXmRaRXv75Lfnd3q35U042hnVN1FDwcf6K5dED3Z5XSCWN1hnl27Ov5Un1RAz9oBGoUJcXaGnNH9gigpxRTHk0URjX9CfJLKwRaUsiKUSrCyBKfTFepnmXKhzIbiwxgnJLN0k4Pkqvmb6d3JyAWeHdZrgLCZwZJyc+Na9ZwMicyyIqQ81m82yTlipj+b7Ol7fPYLvMzRH9X3rjEfyfWjD95kCat9X3yjqG0Xt+7TvK17e/Mn3oQN9H/p334c8MH2+6+7zfRDXcn3UP7Lvaw28QXfD95mR3b7vJr3d6/tQ7ftqla5VulbpXb5vWGQRI5GtpcLOWaHFYL/96/7R/nl7VFirK9pt/6qo9jHtH3J2yecR7B96fPuH1u3fHRUSHF91gs6//QKsCBtgaBsAAA==",
+      "empty": false
+    },
+    "2": {
+      "etag": "\"f5ac6239dc9c27f6431c92b538a9875ef5a02218e92d0c3324d11b1431881652\"",
+      "data": "H4sIAGQx+GYC/4uOBQApu0wNAgAAAA==",
+      "empty": true
+    }
+  },
+  "asset_data": {
+    "194368928": {
+      "meta": {
+        "schema_version": 4,
+        "id": "signal_container",
+        "name": "Signal Container",
+        "version": "1.0.1",
+        "link": "https://github.com/Lazy-Bing-Server/SingalContainer-MCDR",
+        "authors": [
+          "Ra1ny_Yuki"
+        ],
+        "dependencies": {},
+        "requirements": [
+          "mcdreforged"
+        ],
+        "description": {
+          "en_us": "Obtain container that could output specified container"
+        }
+      },
+      "size": 11043,
+      "hash_md5": "2b3f35bbab106646343a6777613ab994",
+      "hash_sha256": "ad495c77579af533a33765be7b59bd8d774028397cfa00b0644c6da396e464f8"
+    },
+    "194328985": {
+      "meta": {
+        "schema_version": 4,
+        "id": "signal_container",
+        "name": "Signal Container",
+        "version": "1.0.0",
+        "link": "https://github.com/Lazy-Bing-Server/SingalContainer-MCDR",
+        "authors": [
+          "Ra1ny_Yuki"
+        ],
+        "dependencies": {},
+        "requirements": [
+          "mcdreforged"
+        ],
+        "description": {
+          "en_us": "Obtain container that could output specified container"
+        }
+      },
+      "size": 11053,
+      "hash_md5": "cc7ba37271af24eb8a55585519b80712",
+      "hash_sha256": "1206dbc90bc7bfdb27a830cbbb93063be78c51f6f7141bab87ef54cb77419d9c"
+    }
+  },
+  "repos_info": {
+    "etag": "\"a5a5bdc3608702edb7ce4d3633845378b42a16dda5f989565c60d61296f759a6\"",
+    "data": "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"
+  }
+}
